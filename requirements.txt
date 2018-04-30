@@ -2,7 +2,7 @@
 # Flask
 # ----------------------
 click==6.7
-flask
+flask==0.12.2
 Flask-WTF==0.14.2
 itsdangerous==0.24
 Flask-SQLAlchemy
