@@ -8,7 +8,7 @@ This file creates your application.
 from app import app, db, filefolder, token_key
 from flask import render_template, request, redirect, url_for, flash, jsonify, g, session
 from .forms import LoginForm, RegistrationForm, newPostForm
-from models import Users, Posts, Likes, Follows
+from .models import Users, Posts, Likes, Follows
 import os
 import jwt
 import datetime
