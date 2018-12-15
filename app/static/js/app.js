@@ -385,7 +385,7 @@ const profilepage= Vue.component('profile-form', {
     </div>
     `,
     watch: {
-        '$route' (to, fom){
+        '$route' (to, from){
             this.reload()
         },
         'following' (newvalue, oldvalue){
