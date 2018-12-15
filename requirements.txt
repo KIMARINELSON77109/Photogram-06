@@ -7,7 +7,7 @@ Flask-WTF==0.14.2
 itsdangerous==0.24
 Flask-SQLAlchemy
 Flask-Migrate
-psycopg2
+psycopg2-binary
 Flask-Script
 pyjwt
 Werkzeug==0.11.15
