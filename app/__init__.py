@@ -8,7 +8,7 @@ TOKEN_SECRET = 'Thisissecret'
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "change this to be a more random key"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://xlhgfdivrpfizb:a5c4c2c02697cc124ce2afc8fbe9f37cb16e65bb7549c9dae999324205f1bbfe@ec2-54-225-200-15.compute-1.amazonaws.com:5432/dee2ubeu8f74dg"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://btyoeetywrnblt:243fead832fc46e25c1d0076e811249e52c75e2ae831c724882cd05349cff004@ec2-54-227-249-201.compute-1.amazonaws.com:5432/d6vovl10vtdlie"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # added just to suppress a warning
 csrf = CSRFProtect(app)
 
